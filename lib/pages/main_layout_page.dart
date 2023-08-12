@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:grocery_app/pages/cart_page.dart';
 import 'package:grocery_app/pages/home_page.dart';
+import 'package:grocery_app/pages/profile_page.dart';
 
 class MainLayoutPage extends StatefulWidget {
   const MainLayoutPage({super.key});
@@ -14,8 +16,8 @@ class _MainLayoutPageState extends State<MainLayoutPage> {
   static const List<Widget> _widgetOptions = <Widget>[
     HomePage(),
     Text('Favourite'),
-    Text('Cart'),
-    Text('Profile'),
+    MyCartPage(),
+    ProfilePage(),
   ];
   @override
   Widget build(BuildContext context) {

@@ -20,14 +20,15 @@ class ProfileListTile extends StatelessWidget {
           ),
           title: Text(
             title,
-            style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+            style: const TextStyle(
+                color: Colors.black, fontWeight: FontWeight.bold),
           ),
           subtitle: Text(
             subtitle,
-            style: TextStyle(fontStyle: FontStyle.italic),
+            style: const TextStyle(fontStyle: FontStyle.italic),
           ),
         ),
-        Divider(
+        const Divider(
           color: Colors.grey,
           thickness: 0.5,
         )

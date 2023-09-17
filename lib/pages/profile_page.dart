@@ -12,7 +12,7 @@ class _ProfilePageState extends State<ProfilePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white.withOpacity(0.05),
+      backgroundColor: Colors.grey.withOpacity(0.01),
       appBar: AppBar(
         actions: <Widget>[
           IconButton(
@@ -111,7 +111,8 @@ class _ProfilePageState extends State<ProfilePage> {
               width: MediaQuery.of(context).size.width,
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(15),
-                  color: Colors.greenAccent.withOpacity(0.2)),
+                  //color: Colors.greenAccent.withOpacity(0.2)
+                  color: Colors.white),
               child: Column(
                 children: <Widget>[
                   ProfileListTile(
